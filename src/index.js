@@ -1,9 +1,17 @@
+// External Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+
+// Internal Dependencies
 import './index.css';
+import Router from './routes';
+
+
+// TODO: Add ReduxDevTools
 
 ReactDOM.render(
-  <App />,
+  <div>
+    <Router />
+  </div>,
   document.getElementById('root')
 );
